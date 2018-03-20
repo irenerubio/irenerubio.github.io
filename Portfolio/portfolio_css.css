@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "Lucida Bright";
+}
+
+#contenedor1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1 {
+    font-family: Century Gothic, "serif";
+	font-size: 90px;
+}
+
+h2 {
+    font-family: Century Gothic, "serif";
+	font-size: 50px; 
+}
+
+h3 {
+	font-family: Century Gothic, "serif";
+	font-size: 10px; 
+}
+
+p {
+	width: 50%;
+	font-family: Century Gothic, "serif";
+	font-size: 15px;
+	text-align: center;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	width: 100%;
+	top:0;
+}
+
+.menu ul {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+		font-family: Century Gothic, "serif";
+		font-size: 20px; 
+	}
+.menu {
+		width: 100%;
+		height: 15%;
+}
+.menu li {
+		width: 100%;
+		height: 100%;
+}
+	.menu a {
+		display: block;
+		padding: 2em;
+		background-color:black;
+		text-decoration: none;
+		color: #191C26;
+	}
+	.menu a:hover {
+		background-color:#3C3434;
+	}
+	.menu ul li ul {
+		display: none;
+		width: 100%;
+		height: 100%;
+	}
+	.menu ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+		display: block;
+	}
+
+#aboutme {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 900px;
+}
+
+#mywork {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	height: 900px;
+}
+
+img {
+    display: inline-block;
+}
+
+#galeriaimagenes {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+#demoreel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 900px;
+}
+
+#contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 900px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color:cornflowerblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: darkseagreen;
+}
+
+/* Add a background color and some padding around the form */
+.contactpage {
+    border-radius: 5px;
+    background-color: aquamarine;
+    padding: 20px;
+	font-family: Century Gothic, "serif";
+	font-size: 20px;
+	width: 25%;
+}
+
+#piedepagina {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 100px;
+}
