@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento sin título</title>
+<link rel="stylesheet" type="text/css" href="portfolio_css.css" />
+</head>
+
+<body>
+	<header>
+		<div id="contenedor1">
+			<h1>Irene Rubio</h1>
+		</div>
+		<nav class="menu">
+			<ul>
+				<li><a href="#aboutme"><font color="#B19B94">About me</font></a></li>
+				<li><a href="#mywork"><font color="#B19B94">My work</font></a></li>
+				<li><a href="#demoreel"><font color="#B19B94">Demo Reel</font></a></li>
+				<li><a href="#contact"><font color="#B19B94">Contact</font></a></li>
+			</ul>
+		</nav>
+	</header>
+	<article>
+		<div id="aboutme">
+			<h2>About me</h2>
+			<p>My name is Irene Rubio and I was born in Madrid (Spain) on the 5th October, in 1999. Right now, I'm studying a Higher Education Training Cycle of 3D Animation, Games and Interactive Media in the U-Tad university of Madrid. Even though I am currently studying a wide variety of subjects, I would like to focus in 3D animation and character modeling in the future. I hope that this two years I'll be studying I'll successfully finish my training and become someone in this new labor market. I hope you enjoy this portfolio!</p>
+		</div>
+		<div id="mywork">
+			<h2>My work</h2>
+			<p>Since I've been studying in U-Tad I've been working in several projects. I usually use professional programs like Autodesk Maya for animation, rigging and modeling projects, but I also use Unity for game-programming, HTML5 for web-programming and I use photoshop for my art work. Here are some of my last art creations:</p>
+			<div id="galeriaimagenes">
+				<img src="Fotos/foto1.jpg" alt="foto1" width="600px" height="350px">
+				<img src="Fotos/foto3.jpg" alt="foto3" width="290px" height="350px">
+				<img src="Fotos/foto2.jpg" alt="foto2" width="600px" height="350px">
+			</div>
+			<p><font color="red">Ni idea de por qué no se ven las fotos</font></p>
+		</div>
+		<div id="demoreel">
+			<h2>Demo Reel</h2>
+			<p>Here you can see my demo reel, a short recopilation of my best works. Hope you enjoy it!</p>
+			<video width="600" height="415" controls>
+  				<source src="media/video.mp4" type="video/mp4">
+			</video>
+			<p><font color="red">Es un vídeo de prueba, no es una demo reel</font></p>
+		</div>
+		<div id="contact">
+			<h2>Contact</h2>
+			<div class="contactpage">
+  				<form action="action_page.php">
+    				<label for="fname">Name</label>
+    				<input type="text" id="name" name="name" placeholder="Your name..">
+    				<label for="lname">e-mail</label>
+    				<input type="text" id="email" name="email" placeholder="Your e-mail...">
+					<label for="lname">Telephone number</label>
+    				<input type="text" id="number" name="number" placeholder="Your number...">
+    				<label for="country">Continent</label>
+    				<select id="country" name="country">
+      					<option value="australia">Africa</option>
+      					<option value="canada">Asia</option>
+      					<option value="usa">Australia</option>
+						<option value="usa">Europe</option>
+						<option value="usa">North America</option>
+						<option value="usa">South America</option>
+    				</select>
+    				<label for="subject">Subject</label>
+    				<textarea id="subject" name="subject" placeholder="What can I help you with?" style="height:200px"></textarea>
+    				<input type="submit" value="Submit">
+				</form>
+			</div> 
+		</div>
+	</article>
+	<footer>
+		<div id="piedepagina">
+			<h3>© Copyright 2018 Irene Rubio – All rights reserved</h3>
+		</div>
+	</footer>
+</body>
+</html>
